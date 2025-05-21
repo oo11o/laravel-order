@@ -1,0 +1,96 @@
+version: '3.8'
+
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx.dockerfile
+    container_name: mist.nginx
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./src:/var/www/html
+      - ./nginx/logs:/var/log/nginx
+    networks:
+      - mist
+    depends_on:
+      - php
+      - postgres
+  php:
+    build:
+      context: .
+      dockerfile: php.dockerfile
+    container_name: mist.php
+    volumes:
+      - ./src:/var/www/html
+      - ./php/logs:/var/log/php
+    user: 1000:www-data
+    networks:
+      - mist
+
+
+  postgres:
+    container_name: mist.postgres
+    image: postgres
+    environment:
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: mist
+    volumes:
+      - ../storage/data:/var/lib/postgresql/data
+    ports:
+      - "5435:5432"
+    networks:
+      - mist
+
+  composer:
+    image: composer:latest
+    container_name: mist.composer
+    volumes:
+      - ./src:/var/www/html
+    working_dir: /var/www/html
+    user: 1000:www-data
+    networks:
+      - mist
+
+  artisan:
+    build:
+      context: .
+      dockerfile: php.dockerfile
+    container_name: mist.artisan
+    volumes:
+      - ./src:/var/www/html
+    working_dir: /var/www/html
+    entrypoint: ["php", "artisan"]
+    user: 1000:www-data
+    networks:
+      - mist
+
+  npm:
+    image: node:current-alpine
+    container_name: mist.npm
+    volumes:
+      - ./src:/var/www/html
+    working_dir: /var/www/html
+    entrypoint: [ "npm" ]
+    user: 1000:www-data
+    networks:
+      - mist
+
+  phpunit:
+    build:
+      context: .
+      dockerfile: php.dockerfile
+    container_name: mist.phpunit
+    volumes:
+      - ./src:/var/www/html
+    working_dir: /var/www/html
+    entrypoint: [ "/var/www/html/vendor/bin/phpunit" ]
+    user: 1000:www-data
+    networks:
+      - mist
+
+networks:
+  mist:
+    driver: bridge
