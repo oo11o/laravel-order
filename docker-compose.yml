@@ -8,7 +8,6 @@ services:
     container_name: mist.nginx
     ports:
       - 80:80
-      - 443:443
     volumes:
       - ./src:/var/www/html
       - ./nginx/logs:/var/log/nginx
@@ -36,7 +35,7 @@ services:
     environment:
       POSTGRES_USER: test
       POSTGRES_PASSWORD: test
-      POSTGRES_DB: mist
+      POSTGRES_DB: postgres
     volumes:
       - ../storage/data:/var/lib/postgresql/data
     ports:

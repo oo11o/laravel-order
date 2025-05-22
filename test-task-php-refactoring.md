@@ -9,7 +9,7 @@
 // OrderController.php
 class OrderController extends Controller
 {
-    public function store(Request $request)
+    public function store(Request $request):void
     {
         if (!$request->product_id || !$request->quantity) {
             return response("Validation error", 400);
@@ -27,6 +27,7 @@ class OrderController extends Controller
         $order->price = $product->price * $request->quantity;
         $order->status = 'new';
         $order->save();
+      
         
         Mail::send('emails.order_confirmation', ['order' => $order], function($message) {
             $message->to(auth()->user()->email)->subject('Order Confirmation');
@@ -101,7 +102,7 @@ class Order extends Model
 
 1. **Отримання деталей замовлення**:
    - Метод `show(Request $request, $id)` для отримання інформації про замовлення
-   - Базова авторизація (користувач бачить лише свої замовлення)
+   - Базова авторизація (куористувач бачить лише свої замовлення)
 
 АБО
 

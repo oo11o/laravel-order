@@ -41,3 +41,228 @@
 2025/05/21 20:00:23 [notice] 1#1: start worker process 30
 2025/05/21 20:00:23 [notice] 1#1: start worker process 31
 2025/05/21 20:00:23 [notice] 1#1: start worker process 32
+2025/05/21 20:51:21 [info] 30#30: *1 client timed out (110: Operation timed out) while waiting for request, client: 192.168.96.1, server: 0.0.0.0:80
+2025/05/21 20:51:21 [info] 29#29: *2 client timed out (110: Operation timed out) while waiting for request, client: 192.168.96.1, server: 0.0.0.0:80
+2025/05/21 20:56:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/05/21 20:56:06 [notice] 29#29: gracefully shutting down
+2025/05/21 20:56:06 [notice] 31#31: gracefully shutting down
+2025/05/21 20:56:06 [notice] 30#30: gracefully shutting down
+2025/05/21 20:56:06 [notice] 29#29: exiting
+2025/05/21 20:56:06 [notice] 30#30: exiting
+2025/05/21 20:56:06 [notice] 31#31: exiting
+2025/05/21 20:56:06 [notice] 29#29: exit
+2025/05/21 20:56:06 [notice] 30#30: exit
+2025/05/21 20:56:06 [notice] 31#31: exit
+2025/05/21 20:56:06 [notice] 32#32: gracefully shutting down
+2025/05/21 20:56:06 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2025/05/21 20:56:06 [notice] 1#1: worker process 29 exited with code 0
+2025/05/21 20:56:06 [notice] 1#1: signal 29 (SIGIO) received
+2025/05/21 20:56:06 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2025/05/21 20:56:06 [notice] 1#1: worker process 31 exited with code 0
+2025/05/21 20:56:06 [notice] 1#1: signal 29 (SIGIO) received
+2025/05/21 20:56:06 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2025/05/21 20:56:06 [notice] 1#1: worker process 30 exited with code 0
+2025/05/21 20:56:06 [notice] 1#1: signal 29 (SIGIO) received
+2025/05/21 20:56:22 [notice] 1#1: using the "epoll" event method
+2025/05/21 20:56:22 [notice] 1#1: nginx/1.24.0
+2025/05/21 20:56:22 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2025/05/21 20:56:22 [notice] 1#1: OS: Linux 5.15.0-139-generic
+2025/05/21 20:56:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/05/21 20:56:22 [notice] 1#1: start worker processes
+2025/05/21 20:56:22 [notice] 1#1: start worker process 29
+2025/05/21 20:56:22 [notice] 1#1: start worker process 30
+2025/05/21 20:56:22 [notice] 1#1: start worker process 31
+2025/05/21 20:56:22 [notice] 1#1: start worker process 32
+2025/05/21 21:00:38 [info] 30#30: *3 client timed out (110: Operation timed out) while waiting for request, client: 192.168.112.1, server: 0.0.0.0:80
+2025/05/21 21:12:21 [info] 32#32: *7 client timed out (110: Operation timed out) while waiting for request, client: 192.168.112.1, server: 0.0.0.0:80
+2025/05/21 21:12:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/05/21 21:12:52 [notice] 29#29: gracefully shutting down
+2025/05/21 21:12:52 [notice] 30#30: gracefully shutting down
+2025/05/21 21:12:52 [notice] 29#29: exiting
+2025/05/21 21:12:52 [notice] 30#30: exiting
+2025/05/21 21:12:52 [notice] 29#29: exit
+2025/05/21 21:12:52 [notice] 30#30: exit
+2025/05/21 21:12:52 [notice] 31#31: gracefully shutting down
+2025/05/21 21:12:52 [notice] 31#31: exiting
+2025/05/21 21:12:52 [notice] 31#31: exit
+2025/05/21 21:12:52 [notice] 32#32: gracefully shutting down
+2025/05/21 21:12:52 [notice] 32#32: exiting
+2025/05/21 21:12:52 [notice] 32#32: exit
+2025/05/21 21:12:52 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2025/05/21 21:12:52 [notice] 1#1: worker process 29 exited with code 0
+2025/05/21 21:12:52 [notice] 1#1: signal 29 (SIGIO) received
+2025/05/21 21:12:52 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2025/05/21 21:12:52 [notice] 1#1: worker process 30 exited with code 0
+2025/05/21 21:12:52 [notice] 1#1: worker process 31 exited with code 0
+2025/05/21 21:12:52 [notice] 1#1: worker process 32 exited with code 0
+2025/05/21 21:12:52 [notice] 1#1: exit
+2025/05/21 21:13:05 [notice] 1#1: using the "epoll" event method
+2025/05/21 21:13:05 [notice] 1#1: nginx/1.24.0
+2025/05/21 21:13:05 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2025/05/21 21:13:05 [notice] 1#1: OS: Linux 5.15.0-139-generic
+2025/05/21 21:13:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/05/21 21:13:05 [notice] 1#1: start worker processes
+2025/05/21 21:13:05 [notice] 1#1: start worker process 29
+2025/05/21 21:13:05 [notice] 1#1: start worker process 30
+2025/05/21 21:13:05 [notice] 1#1: start worker process 31
+2025/05/21 21:13:05 [notice] 1#1: start worker process 32
+2025/05/21 21:25:20 [info] 31#31: *3 client timed out (110: Operation timed out) while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/21 21:37:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/05/21 21:37:08 [notice] 29#29: gracefully shutting down
+2025/05/21 21:37:08 [notice] 29#29: exiting
+2025/05/21 21:37:08 [notice] 29#29: exit
+2025/05/21 21:37:08 [notice] 30#30: gracefully shutting down
+2025/05/21 21:37:08 [notice] 30#30: exiting
+2025/05/21 21:37:08 [notice] 30#30: exit
+2025/05/21 21:37:08 [notice] 31#31: gracefully shutting down
+2025/05/21 21:37:08 [notice] 31#31: exiting
+2025/05/21 21:37:08 [notice] 31#31: exit
+2025/05/21 21:37:08 [notice] 32#32: gracefully shutting down
+2025/05/21 21:37:08 [notice] 32#32: exiting
+2025/05/21 21:37:08 [notice] 32#32: exit
+2025/05/21 21:37:08 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2025/05/21 21:37:08 [notice] 1#1: worker process 29 exited with code 0
+2025/05/21 21:37:08 [notice] 1#1: signal 29 (SIGIO) received
+2025/05/21 21:37:08 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2025/05/21 21:37:08 [notice] 1#1: worker process 31 exited with code 0
+2025/05/21 21:37:08 [notice] 1#1: signal 29 (SIGIO) received
+2025/05/21 21:37:08 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2025/05/21 21:37:08 [notice] 1#1: worker process 32 exited with code 0
+2025/05/21 21:37:08 [notice] 1#1: signal 29 (SIGIO) received
+2025/05/21 21:37:08 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2025/05/21 21:37:08 [notice] 1#1: worker process 30 exited with code 0
+2025/05/21 21:37:08 [notice] 1#1: exit
+2025/05/22 04:37:44 [notice] 1#1: using the "epoll" event method
+2025/05/22 04:37:44 [notice] 1#1: nginx/1.24.0
+2025/05/22 04:37:44 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2025/05/22 04:37:44 [notice] 1#1: OS: Linux 5.15.0-139-generic
+2025/05/22 04:37:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/05/22 04:37:44 [notice] 1#1: start worker processes
+2025/05/22 04:37:44 [notice] 1#1: start worker process 29
+2025/05/22 04:37:44 [notice] 1#1: start worker process 30
+2025/05/22 04:37:44 [notice] 1#1: start worker process 31
+2025/05/22 04:37:44 [notice] 1#1: start worker process 32
+2025/05/22 05:11:45 [info] 29#29: *3 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 05:11:45 [info] 30#30: *1 client 192.168.128.1 closed keepalive connection
+2025/05/22 05:13:33 [warn] 32#32: *4 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 192.168.128.1, server: mist.local, request: "POST /orders HTTP/1.1", host: "127.0.0.1"
+2025/05/22 05:14:07 [warn] 32#32: *4 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 192.168.128.1, server: mist.local, request: "POST /orders HTTP/1.1", host: "127.0.0.1"
+2025/05/22 05:14:25 [warn] 32#32: *4 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 192.168.128.1, server: mist.local, request: "POST /orders HTTP/1.1", host: "127.0.0.1"
+2025/05/22 05:14:32 [info] 31#31: *8 client 192.168.128.1 closed keepalive connection
+2025/05/22 05:14:32 [info] 30#30: *10 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 05:15:38 [warn] 30#30: *11 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 192.168.128.1, server: mist.local, request: "POST /orders-test HTTP/1.1", host: "127.0.0.1"
+2025/05/22 05:18:14 [warn] 30#30: *13 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 192.168.128.1, server: mist.local, request: "POST /orders-test HTTP/1.1", host: "127.0.0.1"
+2025/05/22 05:18:18 [warn] 30#30: *13 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 192.168.128.1, server: mist.local, request: "GET /orders-test HTTP/1.1", host: "127.0.0.1"
+2025/05/22 05:18:28 [info] 30#30: *16 client 192.168.128.1 closed keepalive connection
+2025/05/22 05:18:28 [info] 30#30: *18 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 05:18:45 [info] 30#30: *21 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 05:18:45 [info] 30#30: *19 client 192.168.128.1 closed keepalive connection
+2025/05/22 05:18:56 [warn] 30#30: *22 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 192.168.128.1, server: mist.local, request: "GET /orders-test HTTP/1.1", upstream: "fastcgi://192.168.128.2:9000", host: "127.0.0.1"
+2025/05/22 05:19:00 [info] 30#30: *22 client 192.168.128.1 closed keepalive connection
+2025/05/22 05:19:00 [info] 30#30: *24 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 05:19:14 [info] 30#30: *25 client 192.168.128.1 closed keepalive connection
+2025/05/22 05:19:14 [info] 30#30: *26 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 05:19:19 [warn] 30#30: *13 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 192.168.128.1, server: mist.local, request: "GET /orders-test HTTP/1.1", host: "127.0.0.1"
+2025/05/22 05:19:32 [info] 30#30: *29 client 192.168.128.1 closed keepalive connection
+2025/05/22 05:19:32 [info] 30#30: *31 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 05:19:43 [info] 30#30: *32 client 192.168.128.1 closed keepalive connection
+2025/05/22 05:19:43 [info] 30#30: *34 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 05:20:29 [info] 29#29: *37 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 05:20:29 [info] 30#30: *35 client 192.168.128.1 closed keepalive connection
+2025/05/22 05:20:34 [warn] 29#29: *41 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 192.168.128.1, server: mist.local, request: "GET /orders-test HTTP/1.1", host: "127.0.0.1"
+2025/05/22 05:20:36 [info] 29#29: *38 client 192.168.128.1 closed keepalive connection
+2025/05/22 05:20:36 [info] 29#29: *39 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 05:20:36 [warn] 29#29: *41 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 192.168.128.1, server: mist.local, request: "GET /orders-test HTTP/1.1", host: "127.0.0.1"
+2025/05/22 05:20:57 [warn] 29#29: *41 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 192.168.128.1, server: mist.local, request: "GET /api/orders-test HTTP/1.1", host: "127.0.0.1"
+2025/05/22 05:21:08 [info] 29#29: *45 client 192.168.128.1 closed keepalive connection
+2025/05/22 05:21:08 [info] 29#29: *47 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 06:31:50 [info] 29#29: *71 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 06:31:59 [info] 29#29: *74 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 06:31:59 [info] 29#29: *72 client 192.168.128.1 closed keepalive connection
+2025/05/22 06:32:10 [info] 32#32: *77 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 06:32:10 [info] 29#29: *75 client 192.168.128.1 closed keepalive connection
+2025/05/22 06:32:31 [info] 32#32: *78 client 192.168.128.1 closed keepalive connection
+2025/05/22 06:32:31 [info] 32#32: *80 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 06:33:36 [info] 32#32: *81 client 192.168.128.1 closed keepalive connection
+2025/05/22 06:33:36 [info] 32#32: *83 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 06:33:57 [info] 32#32: *84 client 192.168.128.1 closed keepalive connection
+2025/05/22 06:33:57 [info] 32#32: *85 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 06:38:12 [warn] 32#32: *89 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/01/0000000012 while reading upstream, client: 192.168.128.1, server: mist.local, request: "POST /api/orders HTTP/1.1", upstream: "fastcgi://192.168.128.2:9000", host: "127.0.0.1"
+2025/05/22 09:33:01 [info] 31#31: *154 client 192.168.128.1 closed keepalive connection
+2025/05/22 10:37:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/05/22 10:37:30 [notice] 29#29: gracefully shutting down
+2025/05/22 10:37:30 [notice] 30#30: gracefully shutting down
+2025/05/22 10:37:30 [notice] 31#31: gracefully shutting down
+2025/05/22 10:37:30 [notice] 32#32: gracefully shutting down
+2025/05/22 10:37:30 [notice] 29#29: exiting
+2025/05/22 10:37:30 [notice] 30#30: exiting
+2025/05/22 10:37:30 [notice] 31#31: exiting
+2025/05/22 10:37:30 [notice] 32#32: exiting
+2025/05/22 10:37:30 [notice] 30#30: exit
+2025/05/22 10:37:30 [notice] 29#29: exit
+2025/05/22 10:37:30 [notice] 31#31: exit
+2025/05/22 10:37:30 [notice] 32#32: exit
+2025/05/22 10:37:30 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2025/05/22 10:37:30 [notice] 1#1: worker process 30 exited with code 0
+2025/05/22 10:37:30 [notice] 1#1: signal 29 (SIGIO) received
+2025/05/22 10:37:30 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2025/05/22 10:37:30 [notice] 1#1: worker process 31 exited with code 0
+2025/05/22 10:37:30 [notice] 1#1: worker process 32 exited with code 0
+2025/05/22 10:37:30 [notice] 1#1: signal 29 (SIGIO) received
+2025/05/22 10:37:30 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2025/05/22 10:37:30 [notice] 1#1: worker process 29 exited with code 0
+2025/05/22 10:37:30 [notice] 1#1: exit
+2025/05/22 10:37:44 [notice] 1#1: using the "epoll" event method
+2025/05/22 10:37:44 [notice] 1#1: nginx/1.24.0
+2025/05/22 10:37:44 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2025/05/22 10:37:44 [notice] 1#1: OS: Linux 5.15.0-139-generic
+2025/05/22 10:37:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/05/22 10:37:44 [notice] 1#1: start worker processes
+2025/05/22 10:37:44 [notice] 1#1: start worker process 29
+2025/05/22 10:37:44 [notice] 1#1: start worker process 30
+2025/05/22 10:37:44 [notice] 1#1: start worker process 31
+2025/05/22 10:37:44 [notice] 1#1: start worker process 32
+2025/05/22 13:38:51 [warn] 30#30: *29 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 192.168.128.1, server: mist.local, request: "GET /api/orders/5 HTTP/1.1", upstream: "fastcgi://192.168.128.9:9000", host: "127.0.0.1"
+2025/05/22 13:38:51 [info] 30#30: *29 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too (32: Broken pipe) while reading upstream, client: 192.168.128.1, server: mist.local, request: "GET /api/orders/5 HTTP/1.1", upstream: "fastcgi://192.168.128.9:9000", host: "127.0.0.1"
+2025/05/22 14:17:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/05/22 14:17:30 [notice] 29#29: gracefully shutting down
+2025/05/22 14:17:30 [notice] 29#29: exiting
+2025/05/22 14:17:30 [notice] 32#32: gracefully shutting down
+2025/05/22 14:17:30 [notice] 32#32: exiting
+2025/05/22 14:17:30 [notice] 29#29: exit
+2025/05/22 14:17:30 [notice] 32#32: exit
+2025/05/22 14:17:30 [notice] 30#30: gracefully shutting down
+2025/05/22 14:17:30 [notice] 30#30: exiting
+2025/05/22 14:17:30 [notice] 30#30: exit
+2025/05/22 14:17:30 [notice] 31#31: gracefully shutting down
+2025/05/22 14:17:30 [notice] 31#31: exiting
+2025/05/22 14:17:30 [notice] 31#31: exit
+2025/05/22 14:17:30 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2025/05/22 14:17:30 [notice] 1#1: worker process 31 exited with code 0
+2025/05/22 14:17:30 [notice] 1#1: signal 29 (SIGIO) received
+2025/05/22 14:17:30 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2025/05/22 14:17:30 [notice] 1#1: worker process 29 exited with code 0
+2025/05/22 14:17:30 [notice] 1#1: signal 29 (SIGIO) received
+2025/05/22 14:17:30 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2025/05/22 14:17:30 [notice] 1#1: worker process 30 exited with code 0
+2025/05/22 14:17:30 [notice] 1#1: worker process 32 exited with code 0
+2025/05/22 14:17:30 [notice] 1#1: exit
+2025/05/22 14:24:08 [notice] 1#1: using the "epoll" event method
+2025/05/22 14:24:08 [notice] 1#1: nginx/1.24.0
+2025/05/22 14:24:08 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2025/05/22 14:24:08 [notice] 1#1: OS: Linux 5.15.0-139-generic
+2025/05/22 14:24:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/05/22 14:24:08 [notice] 1#1: start worker processes
+2025/05/22 14:24:08 [notice] 1#1: start worker process 29
+2025/05/22 14:24:08 [notice] 1#1: start worker process 30
+2025/05/22 14:24:08 [notice] 1#1: start worker process 31
+2025/05/22 14:24:08 [notice] 1#1: start worker process 32
+2025/05/22 14:25:10 [info] 30#30: *1 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 14:25:10 [info] 32#32: *2 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 14:27:33 [info] 29#29: *4 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 14:27:33 [info] 29#29: *3 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 17:23:56 [info] 30#30: *41 client 192.168.128.1 closed keepalive connection
+2025/05/22 17:23:56 [info] 30#30: *43 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 17:25:43 [info] 30#30: *44 client 192.168.128.1 closed keepalive connection
+2025/05/22 17:25:43 [info] 30#30: *46 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 17:25:45 [info] 30#30: *48 client closed connection while waiting for request, client: 192.168.128.1, server: 0.0.0.0:80
+2025/05/22 17:25:45 [info] 30#30: *47 client 192.168.128.1 closed keepalive connection
