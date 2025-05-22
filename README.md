@@ -82,7 +82,7 @@ Authorization: Bearer test
 ```
 ## Тест
 ![img_3.png](img_3.png)
-## Приклад роботі
+## Приклад запиту-відповіді
 ![img_2.png](img_2.png)
 
 
